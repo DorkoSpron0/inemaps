@@ -11,7 +11,7 @@ const aunthenticateUser = (email, password, done) => {
             if(err){
                 throw err
             }
-            console.log(result.rows)
+            //console.log(result.rows)
 
             if(result.rows.length > 0){
                 const user = result.rows[0];
